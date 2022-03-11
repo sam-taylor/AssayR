@@ -1,0 +1,16 @@
+export("run.config")
+export("run.config.tics")
+export("run.config.peaks")
+export("msconvert_all")
+export("assay.plotter")
+
+import(RColorBrewer)
+import(reshape2)
+import(stringr)
+import(mzR)
+
+importFrom("grDevices", "dev.off", "png", "rainbow", "topo.colors")
+importFrom("graphics", "barplot", "lines", "par", "plot", "polygon", "title")
+importFrom("methods", "show")
+importFrom("stats", "approx", "dnorm", "filter", "median", "smooth")
+importFrom("utils", "read.csv", "read.delim", "write.csv", "write.table")
